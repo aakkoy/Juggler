@@ -18,7 +18,8 @@ going live on the internet
 
 git push...... production build
 ```bash
-    netlify 
+    netlify deploy --build --prod
+```
 
 ## Netlify Config File Settings
 
