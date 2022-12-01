@@ -1,5 +1,25 @@
 # Juggler To Do List App
 
+# NETLIFY COMMANDS
+development build
+```bash
+    netlify dev
+```
+
+remote development build
+```bash
+    netlify deploy --build
+```
+
+going live on the internet
+```bash
+    netlify deploy --build --prod
+```
+
+git push...... production build
+```bash
+    netlify 
+
 ## Netlify Config File Settings
 
 ```toml
