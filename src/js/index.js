@@ -14,7 +14,10 @@ async function getToDos(){
     const res = await fetch(url)
     const data = await res.json()
     console.log(data)
-    document.querySelector('#tagline').textContent = data
+
+    data.forEach(item=> console.log(item))
+
+    /* document.querySelector('#tagline').textContent = data */
 }
 
 getToDos()
