@@ -7,7 +7,7 @@ export default defineConfig({
        rollupOptions:{
            input:{
                main: path.resolve('./index.html'),
-               todo: path.resolve('./todo.html'),
+               todo: path.resolve('./todo.html')
            }
        }
     }
